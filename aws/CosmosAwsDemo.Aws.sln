@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FCC06F75-18CC-45F0-997E-03B168CB71F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosAwsDemo.Lambda", "src\CosmosAwsDemo.Lambda\CosmosAwsDemo.Lambda.csproj", "{636F5B91-AFCE-4D4B-9A4D-2FA9944B9D96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8138D0A6-4E09-475A-A8CF-D87543E07FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosAwsDemo.Tests", "tests\CosmosAwsDemo.Tests\CosmosAwsDemo.Tests.csproj", "{257A424B-1442-4581-B8AD-3F30C149E4B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{2520F28E-6BF9-4C94-8E38-ED808F00AE19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{15F08173-40E7-4F2A-B35A-A63B4481F25E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosAwsDemo.Infrastructure", "infrastructure\src\CosmosAwsDemo.Infrastructure\CosmosAwsDemo.Infrastructure.csproj", "{7BE16B60-88E7-40D4-97A4-B216A7F52D89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{636F5B91-AFCE-4D4B-9A4D-2FA9944B9D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636F5B91-AFCE-4D4B-9A4D-2FA9944B9D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636F5B91-AFCE-4D4B-9A4D-2FA9944B9D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636F5B91-AFCE-4D4B-9A4D-2FA9944B9D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257A424B-1442-4581-B8AD-3F30C149E4B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257A424B-1442-4581-B8AD-3F30C149E4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257A424B-1442-4581-B8AD-3F30C149E4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257A424B-1442-4581-B8AD-3F30C149E4B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE16B60-88E7-40D4-97A4-B216A7F52D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE16B60-88E7-40D4-97A4-B216A7F52D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE16B60-88E7-40D4-97A4-B216A7F52D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE16B60-88E7-40D4-97A4-B216A7F52D89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{636F5B91-AFCE-4D4B-9A4D-2FA9944B9D96} = {FCC06F75-18CC-45F0-997E-03B168CB71F3}
+		{257A424B-1442-4581-B8AD-3F30C149E4B2} = {8138D0A6-4E09-475A-A8CF-D87543E07FCA}
+		{15F08173-40E7-4F2A-B35A-A63B4481F25E} = {2520F28E-6BF9-4C94-8E38-ED808F00AE19}
+		{7BE16B60-88E7-40D4-97A4-B216A7F52D89} = {15F08173-40E7-4F2A-B35A-A63B4481F25E}
+	EndGlobalSection
+EndGlobal
