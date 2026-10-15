@@ -1,0 +1,37 @@
+[
+  {
+    "id": "COG-001",
+    "description": "Cognition hoodie",
+    "category": "Apparel",
+    "unitPrice": 65.00,
+    "availableInventory": 120
+  },
+  {
+    "id": "COG-002",
+    "description": "Cognition t-shirt",
+    "category": "Apparel",
+    "unitPrice": 28.00,
+    "availableInventory": 340
+  },
+  {
+    "id": "COG-003",
+    "description": "Cognition water bottle",
+    "category": "Drinkware",
+    "unitPrice": 32.00,
+    "availableInventory": 85
+  },
+  {
+    "id": "COG-004",
+    "description": "Cognition sticker pack",
+    "category": "Accessories",
+    "unitPrice": 6.00,
+    "availableInventory": 1500
+  },
+  {
+    "id": "COG-005",
+    "description": "Cognition crew socks",
+    "category": "Apparel",
+    "unitPrice": 14.00,
+    "availableInventory": 210
+  }
+]
